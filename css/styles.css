@@ -95,6 +95,8 @@ button {
 .show {
   color: #000;
   background-color: #76CE82;
+  transition-property: background-color;
+  transition-duration: 1s;
 }
 
 /* Keyboard */
@@ -108,6 +110,11 @@ button {
   background: var(--color-neutral);
   border-radius: 5px;
   font-size: var(--font-size-medium);
+  color: #FFFFFF;
+}
+
+.wrong {
+  background: red;
   color: #FFFFFF;
 }
 
